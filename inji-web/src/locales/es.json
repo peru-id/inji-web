@@ -1,0 +1,103 @@
+{
+    "PageTemplate": {
+      "Header": {
+        "aboutInji": "Acerca de Inji Web",
+        "help": "Ayuda"
+      },
+      "Footer": {
+        "copyRight": "© 2024 Inji. Todos los derechos reservados."
+      }
+    },
+    "HomePage": {
+      "Intro": {
+        "title": "¡Descargar una credencial está a un solo clic!",
+        "subTitle": "Por favor, busque el emisor y en el siguiente paso, seleccione la credencial para descargar.",
+        "searchText": "Buscar emisores por nombre"
+      },
+      "emptyContainerContent": "No se encontraron emisores. Por favor, actualice su ventana del navegador o intente nuevamente más tarde.",
+      "containerHeading": "Lista de emisores",
+      "errorContent": "El servicio no está disponible actualmente. Por favor, intente nuevamente más tarde."
+    },
+    "CredentialsPage": {
+      "searchText": "Buscar tipo de credencial",
+      "emptyContainerContent": "No se encontraron credenciales. Por favor, actualice su ventana del navegador o intente nuevamente más tarde.",
+      "containerHeading": "Lista de tipos de credenciales",
+      "errorContent": "El servicio no está disponible actualmente. Por favor, intente nuevamente más tarde."
+    },
+    "RedirectionPage": {
+      "navigateButton": "Ir al inicio",
+      "loading": {
+        "title": "Descarga en progreso...",
+        "subTitle": "Por favor, espere un momento. Estamos convirtiendo sus credenciales verificables a PDF."
+      },
+      "success": {
+        "title": "¡Éxito!",
+        "subTitle": "Revise su carpeta de descargas."
+      },
+      "error": {
+        "invalidSession": {
+          "title": "Sesión inválida",
+          "subTitle": "La sesión no es válida o ha finalizado."
+        },
+        "generic": {
+          "title": "Ocurrió un error",
+          "subTitle": "Lo sentimos, debido a un error técnico, no podemos descargar la credencial verificable. Por favor, inténtelo de nuevo más tarde."
+        }
+      }
+    },
+    "AuthorizationPage": {
+      "error": {
+        "code": {
+          "invalid_redirect_uri": "Acceso denegado!",
+          "invalid_client": "Acceso denegado!"
+        },
+        "message": {
+          "invalid_redirect_uri": "Las credenciales no pueden compartirse porque no pudimos identificar quién las solicitó. Por favor, contacte al administrador para obtener ayuda.",
+          "invalid_client": "Las credenciales no pueden compartirse porque no pudimos identificar quién las solicitó. Por favor, contacte al administrador para obtener ayuda."
+        }
+      }
+    },
+    "PageNotFound": {
+      "navigateButton": "Ir al inicio",
+      "heading": "Eso es un error",
+      "subHeading": "La URL solicitada {{pathname}} no se encontró en este servidor."
+    },
+    "HelpPage": {
+      "title": "Ayuda"
+    },
+    "Help": {
+      "item1": {
+        "title": "¿Quiénes son los emisores?",
+        "description1": "Los emisores son organismos gubernamentales o entidades confiables autorizadas por el gobierno, responsables de proporcionar credenciales verificables en formato PDF a los residentes que las soliciten."
+      },
+      "item2": {
+        "title": "¿Qué son las credenciales verificables?",
+        "description1": "Las credenciales verificables son documentos digitales que permiten a los usuarios compartir información como identidad o calificaciones con proveedores de servicios, los cuales pueden ser verificados al instante. Son emitidos por entidades confiables y su autenticidad puede verificarse criptográficamente. Estas credenciales agilizan los procesos de verificación de identidad."
+      },
+      "item3": {
+        "title": "¿Cómo descargar una credencial en Inji Web?",
+        "description1": "Paso 1: Busque y seleccione un emisor en la página de inicio y elija un tipo de credencial.",
+        "description2": "Paso 2: En la página de autenticación, proporcione los datos requeridos.",
+        "description3": "Paso 3: El formato PDF de la credencial verificable se descargará en su sistema."
+      },
+      "item4": {
+        "title": "¿Qué información necesito proporcionar para descargar mi credencial?",
+        "description1": "El emisor de la credencial le habrá proporcionado detalles como UIN/VID en el caso de la ID Nacional MOSIP, o número de póliza, nombre y fecha de nacimiento para una tarjeta de seguro. Esta información debe ingresarse en el sistema de autenticación para permitir la descarga."
+      },
+      "item5": {
+        "title": "¿Dónde puedo encontrar mi credencial?",
+        "description1": "La credencial verificable se descargará en la carpeta de Descargas de su sistema."
+      },
+      "item6": {
+        "title": "¿Qué información contiene el PDF de la credencial?",
+        "description1": "Los datos recopilados durante el proceso de registro se presentarán en el PDF. Actualmente, para el caso de uso de seguros, se pueden encontrar detalles de la póliza como nombre, fecha de nacimiento, etc."
+      },
+      "item7": {
+        "title": "¿Por qué no veo la lista de emisores?",
+        "description1": "Posibles razones para este problema incluyen:",
+        "description2": "1. Errores técnicos pueden hacer que el servicio no esté disponible temporalmente, impidiendo el acceso a la lista de emisores.",
+        "description3": "2. No se han configurado emisores.",
+        "description4": "En cualquier caso, por favor contacte a su equipo técnico para resolver el problema."
+      }
+    }
+  }

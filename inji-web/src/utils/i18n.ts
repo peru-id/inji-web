@@ -6,18 +6,16 @@ import ta from '../locales/ta.json';
 import hi from '../locales/hi.json';
 import kn from '../locales/kn.json';
 import ar from '../locales/ar.json';
+import es from '../locales/es.json'
 import {storage} from "./storage";
 import {DisplayArrayObject, LanguageObject} from "../types/data";
 
-const resources = {en, ta, kn, hi, fr, ar};
+const resources = {en,es};
 
 export const LanguagesSupported: LanguageObject[] = [
     {label: "English", value: 'en'},
-    {label: "தமிழ்", value: 'ta'},
-    {label: "ಕನ್ನಡ", value: 'kn'},
-    {label: "हिंदी", value: 'hi'},
-    {label: "Français", value: 'fr'},
-    {label: "عربي", value: 'ar'}
+    {label: "Española", value: 'es'},
+
 ]
 
 export const defaultLanguage = window._env_.DEFAULT_LANG;

@@ -10,11 +10,10 @@ import es from '../locales/es.json'
 import {storage} from "./storage";
 import {DisplayArrayObject, LanguageObject} from "../types/data";
 
-const resources = {en,es};
+const resources = {es};
 
 export const LanguagesSupported: LanguageObject[] = [
-    {label: "English", value: 'en'},
-    {label: "Española", value: 'es'},
+    {label: "Española", value: 'es'}
 
 ]
 

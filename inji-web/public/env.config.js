@@ -1,5 +1,5 @@
 window._env_ = {
-    DEFAULT_LANG: "en",
+    DEFAULT_LANG: "es",
     DEFAULT_THEME: "",
     DEFAULT_FAVICON: "favicon.ico",
     DEFAULT_TITLE: "Inji Web",

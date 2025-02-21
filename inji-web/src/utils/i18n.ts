@@ -13,7 +13,7 @@ import {DisplayArrayObject, LanguageObject} from "../types/data";
 const resources = {es};
 
 export const LanguagesSupported: LanguageObject[] = [
-    {label: "Española", value: 'es'}
+    {label: "Español", value: 'es'}
 
 ]
 

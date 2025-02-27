@@ -17,7 +17,7 @@ export const LanguagesSupported: LanguageObject[] = [
 
 ]
 
-export const defaultLanguage = window._env_.DEFAULT_LANG;
+export const defaultLanguage = 'es';
 
 const selected_language = storage.getItem(storage.SELECTED_LANGUAGE);
 i18n
